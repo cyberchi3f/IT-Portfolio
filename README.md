@@ -1,2 +1,13 @@
-# IT-Portfolio
-A professional showcase of my hands-on projects in System Administration and Cybersecurity, including labs, scripts, automation, and threat detection tools.
+# 🔐 Cybersecurity Projects
+
+This section showcases hands-on cybersecurity labs and tools such as:
+
+- Network traffic analysis
+- Threat intelligence platforms (MISP, OpenCTI)
+- Vulnerability scanning (Nessus, OpenVAS)
+- SIEM integration and alerting
+
+Each folder contains:
+- Lab instructions and write-ups
+- Screenshots or tool configs
+- Lessons learned
