@@ -1,0 +1,5 @@
+In this hands-on exercise, i utilize the TCP/UDP Endpoint Viewer—a utility from the Windows Sysinternals Suite
+
+to examine and identify active network processes on your system.
+
+This tool provides insight into which applications are communicating over the network, their associated ports, protocols, and process IDs, allowing you to better understand real-time network activity and detect potentially suspicious connections.
