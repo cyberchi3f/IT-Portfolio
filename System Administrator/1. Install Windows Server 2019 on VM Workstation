@@ -1,4 +1,4 @@
-#Install Windows Server on Virtual Machine
+# Install Windows Server on Virtual Machine
 
 Microsoft Windows Server is a popular operating system running in almost every company. What if you want to install Windows Server in your home lab or an organization? Most of the time, you have a template that you can spin up within a few minutes. But sometimes, you need to install a new Windows Server manually.
 
