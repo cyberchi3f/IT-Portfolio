@@ -1,14 +1,54 @@
-# Install Windows Server on Virtual Machine
+# Install Windows Server on a Virtual Machine
 
-Microsoft Windows Server is a popular operating system running in almost every company. What if you want to install Windows Server in your home lab or an organization? Most of the time, you have a template that you can spin up within a few minutes. But sometimes, you need to install a new Windows Server manually.
+This guide shows how to install **Windows Server 2019** on a Virtual Machine (VMware Workstation). The steps are similar for other Windows Server versions and different hypervisors.
 
-In this article, you will learn how to install Windows Server 2019 on a Virtual Machine that’s running on VMware Workstation. The same steps will work if you want to install a different Windows Server version on another virtualization vendor or bare metal server.
+## 1. Download Windows Server ISO
 
-##Download Windows Server ISO file
+Download the ISO from the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/):
 
-Do you already have Windows Server on a USB stick or ISO file? You can skip this step. If you don’t, download
-Windows Server ISO by following the steps below:
-Do you already have Windows Server on a USB stick or ISO file? You can skip this step. If you don’t, download
-Windows Server ISO by following the steps below:
+- Windows Server 2025
+- Windows Server 2022
+- Windows Server 2019
+- Windows Server 2016
+- Windows Server 2012 R2
 
-1.	Download the Windows Server version from the Microsoft Evaluation Center:
+Choose the **64-bit edition** in your preferred language.
+
+## 2. Mount the ISO
+
+1. Create a new Virtual Machine.
+2. Edit VM settings and attach the Windows Server ISO to the CD/DVD drive.
+3. Save and power on the VM.
+
+## 3. Install Windows Server
+
+1. Press any key to boot from the ISO when prompted.
+2. Select language preferences → **Next**.
+3. Click **Install now**.
+4. Select **Windows Server 2019 Standard Evaluation (Desktop Experience)** → **Next**.
+5. Accept the license terms → **Next**.
+6. Choose **Custom: Install Windows only (advanced)**.
+7. Select the drive with **Unallocated Space** → **Next**.
+
+The installation will proceed through:
+- Copying files
+- Installing features and updates
+- Completing setup
+
+The VM will restart several times.
+
+8. Set a password for the built-in **Administrator** account → **Finish**.
+
+## 4. Sign In
+
+1. Press **Ctrl + Alt + Delete** at the lock screen.
+2. Enter the Administrator password.
+3. Server Manager opens automatically.
+
+**Windows Server is now successfully installed.**
+
+---
+
+**Note:** These steps also work on physical servers.
+
+**Documented By:** Simon Etim
