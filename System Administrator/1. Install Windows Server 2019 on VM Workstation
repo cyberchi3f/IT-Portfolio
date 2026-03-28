@@ -1,0 +1,10 @@
+#Install Windows Server on Virtual Machine
+
+Microsoft Windows Server is a popular operating system running in almost every company. What if you want to install Windows Server in your home lab or an organization? Most of the time, you have a template that you can spin up within a few minutes. But sometimes, you need to install a new Windows Server manually.
+
+In this article, you will learn how to install Windows Server 2019 on a Virtual Machine that’s running on VMware Workstation. The same steps will work if you want to install a different Windows Server version on another virtualization vendor or bare metal server.
+
+##Download Windows Server ISO file
+
+Do you already have Windows Server on a USB stick or ISO file? You can skip this step. If you don’t, download
+Windows Server ISO by following the steps below:
